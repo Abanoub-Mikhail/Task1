@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import UserProfile from './Components/UserProfile/UserProfile';
 import Tasks from './Components/Tasks/Tasks';
@@ -10,7 +10,7 @@ import Commits from './Components/Commits/Commits';
 
 function App() {
 
-  const routs = createBrowserRouter([
+  const routs = createHashRouter([
     {path:'/' , element:<Layout/> , children : [
       {index:true , element:<UserProfile/>},
       {path:'user-profile' , element:<UserProfile/> , children:[
