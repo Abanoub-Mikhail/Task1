@@ -14,9 +14,9 @@ export default function UserProfile() {
           </div>
           <p className=' text-uppercase'>user 1</p>
           <div className="tabs d-flex align-items-center gap-3 justify-content-center mb-4">
-            <NavLink className='link text-capitalize' to={'/user-profile/tasks'}>tasks</NavLink>
-            <NavLink className='link text-capitalize' to={'/user-profile/records'}>records</NavLink>
-            <NavLink className='link text-capitalize' to={'/user-profile/commits'}>commits</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active link text-capitalize' : 'link text-capitalize'} to={'/user-profile/tasks'}>tasks</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active link text-capitalize' : 'link text-capitalize'} to={'/user-profile/records'}>records</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active link text-capitalize' : 'link text-capitalize'} to={'/user-profile/commits'}>commits</NavLink>
           </div>
         </div>
         <div className="tbl px-5">
