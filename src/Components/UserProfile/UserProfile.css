@@ -1,0 +1,35 @@
+.user-profile .header .tabs .link {
+    text-decoration: none;
+    background-color: #f8f9fa;
+    color: #5E72E4;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #32325d26, 0 1px 0 #00000005;
+    transition: 0.4s all;
+}
+
+.user-profile .header .tabs .link:hover {
+    background-color: #d7d7d7;
+}
+
+.user-profile .header .image {
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.user-profile .header img{
+    transition: 0.4s all;
+    margin-top: -50px;
+}
+.user-profile .header img:hover{
+    transform: translateY(-10px);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .tbl {
+        padding-inline: 5px !important;
+    }
+    
+}

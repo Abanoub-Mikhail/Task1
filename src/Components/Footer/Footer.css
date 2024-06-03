@@ -1,0 +1,22 @@
+footer {
+    background-color: #f3f5f5;
+}
+
+footer p {
+    color: #8898AA;
+}
+footer p span a {
+    color: #5E72E4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer p span a:hover{
+color:#5365cc ;
+}
+
+footer h4 a {
+    color: #8898AA;
+    text-decoration: none;
+    font-size: 14px;
+}

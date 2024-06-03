@@ -1,0 +1,99 @@
+.table-section{
+    box-shadow: 0 0 2rem 0 #8898aa26;
+    border: 1px solid #8898aa26 ;
+}
+
+.table-section h3 {
+    font-size: 17px;
+}
+
+.table-section table {
+    color: #525F7F;
+    width: 100%;
+    min-width: 1000px;
+}
+
+.table-section table tbody tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-section table thead tr {
+    background-color: #F6F9FC !important;
+    color: #8898AA;
+    font-size: 10.8px;
+    text-transform: uppercase;
+}
+
+.table-section .table-reponsive td , .table-section .table-reponsive th  {
+    padding: 15px;
+}
+
+.table-section .table-reponsive .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8898AA;
+}
+
+.table-section .table-reponsive .budget , .table-section .table-reponsive .completion span{
+    font-size: 13px;
+}
+
+.table-section .table-reponsive .status .dot{
+    border-radius: 50%;
+    display: inline-block;
+    height: .375rem;
+    margin-right: .375rem;
+    width: .375rem;
+}
+
+.table-section .table-reponsive .status{
+    font-size: 14px;
+}  
+
+.table-section .table-reponsive .progress-ba{
+    height: 5px;
+    background-color: #8898aa87;
+}
+
+.table-section .table-reponsive .progress-ba span {
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 0;
+    background-color: red;
+}
+
+
+.table-section .table-reponsive .dots i{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.table-section .table-reponsive .dots i:hover{
+    box-shadow: 0 0 10px 0 #00000094;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.table-section .pages {
+    width: fit-content;
+    padding-right: 10px;
+}
+
+.table-section .pages .page {
+    width: 40px;
+    height: 40px;
+    color: #525F7F;
+}
+.table-section .pages .page.active-page {
+    background-color: #5E72E4;
+    color: white;
+}
+.table-section .pages .page.active-page:hover {
+    background-color: #5E72E4;
+}
+
+.table-section .pages .page:hover {
+    background-color: #c5c6c8;
+    
+}
